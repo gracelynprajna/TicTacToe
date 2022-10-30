@@ -1,4 +1,4 @@
-TIC TAC TOE
+/*TIC TAC TOE
 
 GENERAL OVERVIEW OF GAME
 1. player vs computer 
@@ -56,8 +56,6 @@ declare if the user won or lost at the end of each game and display on the page
 
 use of iteration. examples: for loop, while loop, .forEach method, .map method
 
-  
-*/
 
 /*
 
