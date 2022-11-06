@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: lightpink;
+    color:blue;
 }
 
 h1 {
@@ -73,4 +74,58 @@ h1 {
     height: 100%;
     width: 4px;
     left: 83%;
+}
+
+.strike-diagonal-1{
+    width: 90%;
+    height: 4px;
+    top: 50%; 
+    left: 5%;
+    transform: skewY(45deg);
+}
+
+.strike-diagonal-2{
+    width: 90%;
+    height: 4px;
+    top: 50%; 
+    left: 5%;
+    transform: skewY(-45deg);
+}
+
+#game-over-area{
+    text-align: center;
+    border:blue 8px solid;
+    padding: 50px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+h2{
+    color: blue;
+    font-size: 2em;
+    margin-top: 0em;
+}
+
+button{
+    background-color: transparent;
+    color: blue;
+    border: blue 1px solid;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.x-hover:hover::after{
+    content: "X";
+}
+
+o-hover:hover::after{
+    content: "O";
 }
