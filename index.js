@@ -1,3 +1,14 @@
+let playerName = prompt("Welcome! Please enter your name.");
+alert("Hello " + playerName + "!")
+
+
+class user{
+    constructor(username,score){                                            
+      this.username = username;                
+      this.score = score;
+    }
+}
+
 const tiles = document.querySelectorAll(".tile");
 const playerx = "X";
 const playero = "O";
@@ -32,6 +43,7 @@ function hoverText() {
 
 hoverText();
 
+
 function tileClick(event) {
   if (gameOverArea.classList.contains("visible")) {
     return;
@@ -42,7 +54,6 @@ function tileClick(event) {
   if (tile.innerText != "") {
     return;
   }
-
   if (turn === playerx) {
     tile.innerText = playerx;
     boardState[tileNumber - 1] = playerx;
