@@ -126,6 +126,6 @@ button{
     content: "X";
 }
 
-o-hover:hover::after{
+.o-hover:hover::after{
     content: "O";
 }
